@@ -79,15 +79,15 @@ function doOps(el)
 
     switch(lastOp)
     {
-        case "+": result = parseInt(firstAmt) + parseInt(lastAmt);
+        case "+": result = parseFloat(firstAmt) + parseFloat(lastAmt);
             break;
-        case "-":result = parseInt(firstAmt) - parseInt(lastAmt);
+        case "-":result = parseFloat(firstAmt) - parseFloat(lastAmt);
                     
             break;
-        case "X":result = parseInt(firstAmt) * parseInt(lastAmt);
+        case "X":result = parseFloat(firstAmt) * parseFloat(lastAmt);
 
             break;
-        case "/":result = parseInt(firstAmt) / parseInt(lastAmt);
+        case "/":result = parseFloat(firstAmt) / parseFloat(lastAmt);
             break;
                                         
     }
